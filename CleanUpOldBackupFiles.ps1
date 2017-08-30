@@ -2,7 +2,7 @@
 .SYNOPSIS 
 Compresses and moves log files older than 7 days from specified folder to another.
 .DESCRIPTION 
- If files older than 7 days are found in a given folder, the script will move them to archive folder.  
+ If files older than $arcdays days are found in a given folder, the script will remove it.  
 
 #>
 
